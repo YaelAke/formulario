@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bienvenido</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+</head>
+<body>
+<div class="welcome-container">
+    <h1 th:text="'Bienvenido, ' + ${usuario} + '!'">Bienvenido</h1>
+</div>
+</body>
+</html>
